@@ -1,0 +1,11 @@
+@mixin def-background($size) {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: #{$size};
+}
+
+@mixin make-flex($content) {
+  display: flex;
+  align-items: center;
+  justify-content: #{$content};
+}

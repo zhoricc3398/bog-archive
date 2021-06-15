@@ -1,0 +1,12 @@
+.btn {
+  display: flex;
+
+  &--back {
+    padding-left: 0;
+  }
+
+  &:focus {
+    outline: none;
+    border: 0;
+  }
+}

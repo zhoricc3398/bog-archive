@@ -1,0 +1,56 @@
+.navigation {
+  width: 260px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  flex-shrink: 0;
+  background-color: #5a6670;
+
+  &__header {
+    padding: 20px;
+    margin-bottom: $def-space / 2;
+  }
+
+  &__list {
+    padding: 0;
+    font-size: 14px;
+
+    &--in {
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.2s linear;
+
+      &.active {
+        max-height: 1000px;
+      }
+    }
+
+    &-item {
+      color: #fff;
+      cursor: pointer;
+      list-style-type: none;
+
+      a {
+        color: inherit;
+      }
+
+      &-text-placeholder {
+        padding: 6px 0 6px 45px;
+      }
+
+      &--out {
+        border-top: 1px solid #6B767F;
+      }
+
+      &--in {
+        padding: 6px 0 6px 45px;
+
+        &:hover {
+          background-color: #6B767F;
+        }
+      }
+    }
+  }
+}

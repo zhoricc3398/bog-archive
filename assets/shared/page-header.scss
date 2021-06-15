@@ -1,0 +1,9 @@
+.page-header {
+  @include make-flex("space-between");
+  height: 60px;
+
+  &__title {
+    font-family: map-get($font-names, bold);
+    font-size: 14px;
+  }
+}

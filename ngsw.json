@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1623750390483,
+  "index": "/bog-archive/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bog-archive/favicon.ico",
+        "/bog-archive/index.html",
+        "/bog-archive/main.208a00a589fa1e2df598.js",
+        "/bog-archive/manifest.webmanifest",
+        "/bog-archive/polyfills.94daefd414b8355106ab.js",
+        "/bog-archive/runtime.7b63b9fd40098a2e8207.js",
+        "/bog-archive/styles.151e6846acf5c7537d95.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bog-archive/assets/base/.gitkeep",
+        "/bog-archive/assets/base/base.scss",
+        "/bog-archive/assets/base/global.scss",
+        "/bog-archive/assets/base/variables.scss",
+        "/bog-archive/assets/fonts/.gitkeep",
+        "/bog-archive/assets/fonts/FiraGO-Medium.ttf",
+        "/bog-archive/assets/fonts/FiraGO-Regular.ttf",
+        "/bog-archive/assets/fonts/FiraGO-SemiBold.ttf",
+        "/bog-archive/assets/fonts/fonts.scss",
+        "/bog-archive/assets/icons/icon-128x128.png",
+        "/bog-archive/assets/icons/icon-144x144.png",
+        "/bog-archive/assets/icons/icon-152x152.png",
+        "/bog-archive/assets/icons/icon-192x192.png",
+        "/bog-archive/assets/icons/icon-384x384.png",
+        "/bog-archive/assets/icons/icon-512x512.png",
+        "/bog-archive/assets/icons/icon-72x72.png",
+        "/bog-archive/assets/icons/icon-96x96.png",
+        "/bog-archive/assets/icons/icons.scss",
+        "/bog-archive/assets/keyframes/keyframes.scss",
+        "/bog-archive/assets/modules/.gitkeep",
+        "/bog-archive/assets/modules/normalize.scss",
+        "/bog-archive/assets/pages/.gitkeep",
+        "/bog-archive/assets/pages/authorization.scss",
+        "/bog-archive/assets/patterns/.gitkeep",
+        "/bog-archive/assets/shared/.gitkeep",
+        "/bog-archive/assets/shared/buttons.scss",
+        "/bog-archive/assets/shared/header.scss",
+        "/bog-archive/assets/shared/navigation.scss",
+        "/bog-archive/assets/shared/page-header.scss",
+        "/bog-archive/assets/shared/profile.scss",
+        "/bog-archive/assets/tools/def-mixins.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/bog-archive/assets/base/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/base/base.scss": "c71c151fd94865f43ffff3933405e39be03dfbfb",
+    "/bog-archive/assets/base/global.scss": "60174760c1a1f858afe2f2b42439444a94cf0198",
+    "/bog-archive/assets/base/variables.scss": "3443146d40770908490f086e35153eb6eaa641bf",
+    "/bog-archive/assets/fonts/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/fonts/FiraGO-Medium.ttf": "9703de6e03ac246246ab08decd9c1f236752f25e",
+    "/bog-archive/assets/fonts/FiraGO-Regular.ttf": "4f2c565209b52e7d5212e785fd236152f647f4b8",
+    "/bog-archive/assets/fonts/FiraGO-SemiBold.ttf": "4c6f069eb0ea46ef4c7260a93e2ba7628b51d1c2",
+    "/bog-archive/assets/fonts/fonts.scss": "309a8a84d95c3b0bc018f3654d45ebb275a8fb36",
+    "/bog-archive/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/bog-archive/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/bog-archive/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/bog-archive/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/bog-archive/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/bog-archive/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/bog-archive/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/bog-archive/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/bog-archive/assets/icons/icons.scss": "013291b2cc5896e32dc88353a7677ea7165f8dcc",
+    "/bog-archive/assets/keyframes/keyframes.scss": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/modules/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/modules/normalize.scss": "f995dab1c91c02ba01562b39ca5f09996cfa6364",
+    "/bog-archive/assets/pages/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/pages/authorization.scss": "762dc1eaae3d34ec5bc139e81e1f70a1e35e7b4b",
+    "/bog-archive/assets/patterns/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/shared/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/bog-archive/assets/shared/buttons.scss": "9f63b04963b975cdb866ec9b699ee968c1f9c560",
+    "/bog-archive/assets/shared/header.scss": "082779d3887218c2a298a25f22eca28f1be49523",
+    "/bog-archive/assets/shared/navigation.scss": "aa84398de01dc9c438df99e793fa03ba1efc7005",
+    "/bog-archive/assets/shared/page-header.scss": "15b48f957c4242d6d86baa0a31f0245cdc56e4e6",
+    "/bog-archive/assets/shared/profile.scss": "1b80d4b31aac87eec07b6946b4b11a26f1cf7bb1",
+    "/bog-archive/assets/tools/def-mixins.scss": "103deddaea12db92ca1f225377fe22cda0aba54d",
+    "/bog-archive/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/bog-archive/index.html": "2df3f9c829e512825ffed1a4815c1391b36a3578",
+    "/bog-archive/main.208a00a589fa1e2df598.js": "3321e8b2cefe245202f7f7dcbb0316c8ed3c0187",
+    "/bog-archive/manifest.webmanifest": "f3523ced3cc885bda797ec9d1de4f9dbb82b0666",
+    "/bog-archive/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/bog-archive/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/bog-archive/styles.151e6846acf5c7537d95.css": "01fc292fb12f086b6f9af4281106ce31a7d04907"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
