@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623750390483,
+  "timestamp": 1623752023761,
   "index": "/bog-archive/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/bog-archive/manifest.webmanifest",
         "/bog-archive/polyfills.94daefd414b8355106ab.js",
         "/bog-archive/runtime.7b63b9fd40098a2e8207.js",
-        "/bog-archive/styles.151e6846acf5c7537d95.css"
+        "/bog-archive/styles.f9ff64de396497a4a43d.css"
       ],
       "patterns": []
     },
@@ -69,7 +69,7 @@
     "/bog-archive/assets/base/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/bog-archive/assets/base/base.scss": "c71c151fd94865f43ffff3933405e39be03dfbfb",
     "/bog-archive/assets/base/global.scss": "60174760c1a1f858afe2f2b42439444a94cf0198",
-    "/bog-archive/assets/base/variables.scss": "3443146d40770908490f086e35153eb6eaa641bf",
+    "/bog-archive/assets/base/variables.scss": "c4fe4bec41c575b5b25c85836bebfc3989bc4fca",
     "/bog-archive/assets/fonts/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/bog-archive/assets/fonts/FiraGO-Medium.ttf": "9703de6e03ac246246ab08decd9c1f236752f25e",
     "/bog-archive/assets/fonts/FiraGO-Regular.ttf": "4f2c565209b52e7d5212e785fd236152f647f4b8",
@@ -98,12 +98,12 @@
     "/bog-archive/assets/shared/profile.scss": "1b80d4b31aac87eec07b6946b4b11a26f1cf7bb1",
     "/bog-archive/assets/tools/def-mixins.scss": "103deddaea12db92ca1f225377fe22cda0aba54d",
     "/bog-archive/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/bog-archive/index.html": "2df3f9c829e512825ffed1a4815c1391b36a3578",
+    "/bog-archive/index.html": "1f8244265c78e523843375f11aa73c456a4d37bf",
     "/bog-archive/main.208a00a589fa1e2df598.js": "3321e8b2cefe245202f7f7dcbb0316c8ed3c0187",
     "/bog-archive/manifest.webmanifest": "f3523ced3cc885bda797ec9d1de4f9dbb82b0666",
     "/bog-archive/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/bog-archive/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/bog-archive/styles.151e6846acf5c7537d95.css": "01fc292fb12f086b6f9af4281106ce31a7d04907"
+    "/bog-archive/styles.f9ff64de396497a4a43d.css": "263f116402475ca2a262d8470e220f21c68182ba"
   },
   "navigationUrls": [
     {
