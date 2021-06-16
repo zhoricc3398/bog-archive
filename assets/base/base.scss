@@ -26,8 +26,11 @@ input:focus {
 .wrapper {
   display: flex;
   position: relative;
-  padding-left: 260px;
   min-height: 100%;
+  transition: padding 0.2s ease-in-out;
+  &.active {
+    padding-left: 260px;
+  }
 
   &__content-placeholder {
     width: 100%;

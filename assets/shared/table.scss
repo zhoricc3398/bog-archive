@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+
+  thead {
+    background-color: #dce3ea;
+  }
+
+  td,
+  th {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #a7aeb46e;
+  }
+}
+
+.table-footer {
+  padding: 10px 0;
+}

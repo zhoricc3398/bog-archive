@@ -7,6 +7,12 @@
   z-index: 1500;
   flex-shrink: 0;
   background-color: #5a6670;
+  transform: translateX(-100%);
+  transition: transform 0.2s ease-in-out;
+
+  &.active {
+    transform: translateX(0);
+  }
 
   &__header {
     padding: 20px;
@@ -33,22 +39,36 @@
       list-style-type: none;
 
       a {
+        width: 100%;
+        display: block;
         color: inherit;
       }
 
       &-text-placeholder {
         padding: 6px 0 6px 45px;
+
+        &.has-childs {
+          background-image: url($image-path + "icons/dropdown-right.svg");
+          background-size: 16px 16px;
+          background-position: right $def-space - 10 center;
+          background-repeat: no-repeat;
+          transition: background-image 0.2s ease-in-out;
+
+          &.active {
+            background-image: url($image-path + "icons/dropdown.svg");
+          }
+        }
       }
 
       &--out {
-        border-top: 1px solid #6B767F;
+        border-top: 1px solid #6b767f;
       }
 
       &--in {
         padding: 6px 0 6px 45px;
 
-        &:hover {
-          background-color: #6B767F;
+        &:hover, &.active {
+          background-color: #6b767f;
         }
       }
     }

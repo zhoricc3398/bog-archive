@@ -2,11 +2,65 @@
   display: flex;
 
   &--back {
-    padding-left: 0;
+    padding: 0;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &-transformed {
+      transition: transform 0.2s ease-in-out;
+      transform: rotate(-180deg);
+
+      &.active {
+        transform: rotate(0deg);
+      }
+    }
   }
 
   &:focus {
     outline: none;
     border: 0;
+  }
+
+  &--default-orange {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    background-color: #f26724;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: map-get($font-names, bold);
+  }
+
+  &--transparent {
+    &-cancel {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #5a6670;
+      color: #5a6670;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: map-get($font-names, bold);
+    }
+
+    &-save {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #f26724;
+      color: #f26724;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: map-get($font-names, bold);
+    }
   }
 }
