@@ -1,7 +1,12 @@
 .profile {
-  display: flex;
-  align-items: center;
   font-size: 12px;
+  position: relative;
+
+  &__user-placeholder {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
 
   &__image {
     width: 30px;
@@ -14,5 +19,27 @@
     align-items: center;
     justify-content: center;
     margin-right: $def-space / 3;
+  }
+
+  &__settings {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    z-index: 20;
+    background-color: #fff;
+    transform: translateY(100%);
+    text-align: right;
+    box-shadow: 0px 3px 6px #00000029;
+    font-size: 12px;
+    font-family: map-get($font-names, medium);
+
+    div {
+      padding: 10px 25px;
+    }
+
+    &.active {
+      display: block;
+    }
   }
 }

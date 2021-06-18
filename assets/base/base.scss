@@ -27,7 +27,9 @@ input:focus {
   display: flex;
   position: relative;
   min-height: 100%;
+  padding-left: 60px;
   transition: padding 0.2s ease-in-out;
+  
   &.active {
     padding-left: 260px;
   }

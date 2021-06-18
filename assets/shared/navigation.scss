@@ -1,5 +1,5 @@
 .navigation {
-  width: 260px;
+  width: 60px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -7,30 +7,74 @@
   z-index: 1500;
   flex-shrink: 0;
   background-color: #5a6670;
-  transform: translateX(-100%);
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &.active {
-    transform: translateX(0);
+    width: 260px;
+
+    .navigation {
+      &__header {
+        padding: 20px;
+      }
+
+      &__list {
+        font-size: 14px;
+
+        &-item {
+          &--out {
+            border-top: 1px solid #6b767f;
+          }
+
+          &-text-placeholder {
+            padding: 6px 0 6px 45px;
+
+            &:after {
+              position: absolute;
+            }
+
+            &.has-childs {
+              background-image: url($image-path + "icons/dropdown-right.svg");
+              background-size: 16px 16px;
+              background-position: right $def-space - 10 center;
+              background-repeat: no-repeat;
+              transition: background-image 0.2s ease-in-out;
+
+              &.active {
+                background-image: url($image-path + "icons/dropdown.svg");
+              }
+            }
+          }
+        }
+
+        &--in {
+          &.active {
+            display: block;
+            visibility: visible;
+          }
+        }
+      }
+    }
+
+    .logo {
+      background-image: url($image-path + "icons/logo.svg");
+    }
   }
 
   &__header {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: $def-space / 2;
   }
 
   &__list {
     padding: 0;
-    font-size: 14px;
+    font-size: 0;
+    margin-bottom: 0;
 
     &--in {
-      max-height: 0;
+      display: none;
+      visibility: hidden;
       overflow: hidden;
-      transition: all 0.2s linear;
-
-      &.active {
-        max-height: 1000px;
-      }
+      transition: all 0.3s linear;
     }
 
     &-item {
@@ -45,29 +89,62 @@
       }
 
       &-text-placeholder {
-        padding: 6px 0 6px 45px;
+        position: relative;
 
-        &.has-childs {
-          background-image: url($image-path + "icons/dropdown-right.svg");
-          background-size: 16px 16px;
-          background-position: right $def-space - 10 center;
-          background-repeat: no-repeat;
-          transition: background-image 0.2s ease-in-out;
+        &:after {
+          display: block;
+          width: 24px;
+          height: 24px;
+          content: "";
+          position: static;
+          left: 10px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          @include def-background("contain");
+        }
 
-          &.active {
-            background-image: url($image-path + "icons/dropdown.svg");
+        &.packages {
+          &:after {
+            background-image: url($image-path + "icons/packages.svg");
+          }
+        }
+
+        &.rightsManagement {
+          &:after {
+            background-image: url($image-path + "icons/rightsManagement.svg");
+          }
+        }
+
+        &.archiveRepository {
+          &:after {
+            background-image: url($image-path + "icons/archiveRepository.svg");
+          }
+        }
+
+        &.auxiliaryLists {
+          &:after {
+            background-image: url($image-path + "icons/auxiliaryLists.svg");
+          }
+        }
+
+        &.returnBack {
+          &:after {
+            border: 1px solid red;
+            // background-image: url($image-path + "icons/auxiliaryLists.svg");
           }
         }
       }
 
       &--out {
-        border-top: 1px solid #6b767f;
+        padding: 10px 0;
       }
 
       &--in {
         padding: 6px 0 6px 45px;
 
-        &:hover, &.active {
+        &:hover,
+        &.active {
           background-color: #6b767f;
         }
       }
