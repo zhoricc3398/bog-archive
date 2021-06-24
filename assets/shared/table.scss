@@ -32,6 +32,19 @@ table {
   }
 
   .select {
-    padding: 7px 26px 7px 10px;
+    padding: 0;
+
+    &__option--selected {
+      position: relative;
+      padding: 7px 26px 7px 10px;
+
+      .icon {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    }
   }
 }

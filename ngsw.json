@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624520930148,
+  "timestamp": 1624528652900,
   "index": "/bog-archive/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/bog-archive/favicon.ico",
         "/bog-archive/index.html",
-        "/bog-archive/main.d97ec1b0d13e4be66713.js",
+        "/bog-archive/main.c83c43c02bd4498ca3c1.js",
         "/bog-archive/manifest.webmanifest",
         "/bog-archive/polyfills.94daefd414b8355106ab.js",
         "/bog-archive/runtime.7b63b9fd40098a2e8207.js",
-        "/bog-archive/styles.159d9bc56cd687101201.css"
+        "/bog-archive/styles.6e33c2fe86cdfad081bf.css"
       ],
       "patterns": []
     },
@@ -122,16 +122,16 @@
     "/bog-archive/assets/shared/page-header.scss": "1b6f2eed498e0f7324794e7fd2a8b31a960472cd",
     "/bog-archive/assets/shared/pagination.scss": "5ad508921fe579411ec814c62bb299c5ed4ad102",
     "/bog-archive/assets/shared/profile.scss": "543105a392993f1d1129421ed9e23b24f576ed40",
-    "/bog-archive/assets/shared/select.scss": "924e7a66ec8cee04ecf38d8f27053a514ba5610d",
-    "/bog-archive/assets/shared/table.scss": "6faf45ec963831c7b433cb4fbad72c40009a6393",
+    "/bog-archive/assets/shared/select.scss": "231ef79e889d9c69b11f379341e3a94c3142cd1f",
+    "/bog-archive/assets/shared/table.scss": "5bb129d9d31368633aca07479444662e3a4e3aea",
     "/bog-archive/assets/tools/def-mixins.scss": "103deddaea12db92ca1f225377fe22cda0aba54d",
     "/bog-archive/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/bog-archive/index.html": "56d812ff72b89ac6aa7bf43e5b4d4d3858e1e4d2",
-    "/bog-archive/main.d97ec1b0d13e4be66713.js": "265065d8b97030f76031d0bf8a87610006ca7bb5",
+    "/bog-archive/index.html": "a475ad14afbaafcedd9abbecc648d44d49fab299",
+    "/bog-archive/main.c83c43c02bd4498ca3c1.js": "6da4165433efb8d6b0b2cfbb675ea560c1f8d57d",
     "/bog-archive/manifest.webmanifest": "a4832727f9008230cbd5d63663e4082ead459531",
     "/bog-archive/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/bog-archive/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/bog-archive/styles.159d9bc56cd687101201.css": "35a9adf4c9652a9c8ee3e0db63266fe85aab3d66"
+    "/bog-archive/styles.6e33c2fe86cdfad081bf.css": "75284a293c32ab57a38f797ef5a46bce8a0a71a2"
   },
   "navigationUrls": [
     {
