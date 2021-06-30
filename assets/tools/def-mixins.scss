@@ -9,3 +9,10 @@
   align-items: center;
   justify-content: #{$content};
 }
+
+@mixin def-position($position: "0") {
+  left: #{$position};
+  right: #{$position};
+  bottom: #{$position};
+  top: #{$position};
+}

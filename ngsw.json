@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624528652900,
+  "timestamp": 1625048710116,
   "index": "/bog-archive/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/bog-archive/favicon.ico",
         "/bog-archive/index.html",
-        "/bog-archive/main.c83c43c02bd4498ca3c1.js",
+        "/bog-archive/main.1bf9a883213ca631fd93.js",
         "/bog-archive/manifest.webmanifest",
         "/bog-archive/polyfills.94daefd414b8355106ab.js",
         "/bog-archive/runtime.7b63b9fd40098a2e8207.js",
-        "/bog-archive/styles.6e33c2fe86cdfad081bf.css"
+        "/bog-archive/styles.1cda13bb116e48567ac7.css"
       ],
       "patterns": []
     },
@@ -41,6 +41,7 @@
         "/bog-archive/assets/icons/archiveRepository.svg",
         "/bog-archive/assets/icons/auxiliaryLists.svg",
         "/bog-archive/assets/icons/calendar.svg",
+        "/bog-archive/assets/icons/checked.svg",
         "/bog-archive/assets/icons/dropdown-right.svg",
         "/bog-archive/assets/icons/dropdown.svg",
         "/bog-archive/assets/icons/icon-128x128.png",
@@ -56,6 +57,7 @@
         "/bog-archive/assets/icons/logo.svg",
         "/bog-archive/assets/icons/packages.svg",
         "/bog-archive/assets/icons/rightsManagement.svg",
+        "/bog-archive/assets/icons/settings.svg",
         "/bog-archive/assets/keyframes/keyframes.scss",
         "/bog-archive/assets/modules/.gitkeep",
         "/bog-archive/assets/modules/normalize.scss",
@@ -67,6 +69,7 @@
         "/bog-archive/assets/shared/buttons.scss",
         "/bog-archive/assets/shared/forms.scss",
         "/bog-archive/assets/shared/header.scss",
+        "/bog-archive/assets/shared/modal.scss",
         "/bog-archive/assets/shared/navigation.scss",
         "/bog-archive/assets/shared/page-header.scss",
         "/bog-archive/assets/shared/pagination.scss",
@@ -92,6 +95,7 @@
     "/bog-archive/assets/icons/archiveRepository.svg": "99fecea8b9fb5daa72dc58899139419bff7590a6",
     "/bog-archive/assets/icons/auxiliaryLists.svg": "f9b1c19b2f73d3d4277faf73c903647cad7d7d39",
     "/bog-archive/assets/icons/calendar.svg": "710766b56829c086d9a3be0fa02f063884e0ebca",
+    "/bog-archive/assets/icons/checked.svg": "63505662f65fa7e24d615e28956737b314b01ca6",
     "/bog-archive/assets/icons/dropdown-right.svg": "f017aeead8f1ded5106f151d91236fba00ba6387",
     "/bog-archive/assets/icons/dropdown.svg": "c4329f69c49d744ad7cb5e0b0caecc20a1899a24",
     "/bog-archive/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -102,11 +106,12 @@
     "/bog-archive/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/bog-archive/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/bog-archive/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/bog-archive/assets/icons/icons.scss": "8e008d2744fbe4317730a47e93857c2be8044788",
+    "/bog-archive/assets/icons/icons.scss": "14a8ff81385a905814746d113bda2cd32a70d27a",
     "/bog-archive/assets/icons/logo-min.svg": "b5bf8ddcc5dceb4ebfbcaa38a87f139400cac56e",
     "/bog-archive/assets/icons/logo.svg": "0e2302a14be12d2af4e1d107497be2e5c979614a",
     "/bog-archive/assets/icons/packages.svg": "c6f9f3848b54a3f5c1793d75234f3cdf23dc6284",
     "/bog-archive/assets/icons/rightsManagement.svg": "d5eba3e65302cf8a399338dee71c5d0dd38fe3f9",
+    "/bog-archive/assets/icons/settings.svg": "0f153c5b3cbb7b14b031ff2cbb1a06d95a30d552",
     "/bog-archive/assets/keyframes/keyframes.scss": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/bog-archive/assets/modules/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/bog-archive/assets/modules/normalize.scss": "f995dab1c91c02ba01562b39ca5f09996cfa6364",
@@ -116,22 +121,23 @@
     "/bog-archive/assets/patterns/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/bog-archive/assets/shared/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/bog-archive/assets/shared/buttons.scss": "5e44d423f012bab980d43e7819e786246c35457d",
-    "/bog-archive/assets/shared/forms.scss": "770c867c2599af3fa62101675e003af114f8845d",
+    "/bog-archive/assets/shared/forms.scss": "ccba1e7a19a988741aecc9fe5fcdae5a21221bd0",
     "/bog-archive/assets/shared/header.scss": "082779d3887218c2a298a25f22eca28f1be49523",
-    "/bog-archive/assets/shared/navigation.scss": "bba140345336470eb2b28b431a960f5efa9ef3bc",
+    "/bog-archive/assets/shared/modal.scss": "b068b88ac5cc4a8b437e7fc69acbe86d8499510d",
+    "/bog-archive/assets/shared/navigation.scss": "deae73ff0591b90026ff96244d6a01c08209fba2",
     "/bog-archive/assets/shared/page-header.scss": "1b6f2eed498e0f7324794e7fd2a8b31a960472cd",
     "/bog-archive/assets/shared/pagination.scss": "5ad508921fe579411ec814c62bb299c5ed4ad102",
     "/bog-archive/assets/shared/profile.scss": "543105a392993f1d1129421ed9e23b24f576ed40",
     "/bog-archive/assets/shared/select.scss": "231ef79e889d9c69b11f379341e3a94c3142cd1f",
     "/bog-archive/assets/shared/table.scss": "5bb129d9d31368633aca07479444662e3a4e3aea",
-    "/bog-archive/assets/tools/def-mixins.scss": "103deddaea12db92ca1f225377fe22cda0aba54d",
+    "/bog-archive/assets/tools/def-mixins.scss": "8f0ae8d3361dbbb8a21d4badc8c780b44cdd339f",
     "/bog-archive/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/bog-archive/index.html": "a475ad14afbaafcedd9abbecc648d44d49fab299",
-    "/bog-archive/main.c83c43c02bd4498ca3c1.js": "6da4165433efb8d6b0b2cfbb675ea560c1f8d57d",
+    "/bog-archive/index.html": "b11c661bdc811a2ea47855917be7e1623e61d50d",
+    "/bog-archive/main.1bf9a883213ca631fd93.js": "942702456a3eb35278b2a541c5b61b90c852f6ee",
     "/bog-archive/manifest.webmanifest": "a4832727f9008230cbd5d63663e4082ead459531",
     "/bog-archive/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/bog-archive/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/bog-archive/styles.6e33c2fe86cdfad081bf.css": "75284a293c32ab57a38f797ef5a46bce8a0a71a2"
+    "/bog-archive/styles.1cda13bb116e48567ac7.css": "83484d6d601c5ebdf39402224a44fb710005b194"
   },
   "navigationUrls": [
     {

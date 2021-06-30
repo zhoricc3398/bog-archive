@@ -134,6 +134,12 @@
             // background-image: url($image-path + "icons/auxiliaryLists.svg");
           }
         }
+
+        &.settings {
+          &:after {
+            background-image: url($image-path + "icons/settings.svg");
+          }
+        }
       }
 
       &--out {

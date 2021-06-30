@@ -86,12 +86,12 @@
 
     &__footer {
       position: sticky;
-      left: 0; right: 0;
+      left: 0;
+      right: 0;
       bottom: 0;
       border-top: 1px #a7aeb4 solid;
       padding: 20px 0;
       background-color: #fff;
-
 
       &--button-wrap {
         width: 380px;
@@ -220,5 +220,40 @@ input[type="date"] {
     margin: auto;
     @include def-background("contain");
     background-image: url($image-path + "icons/calendar.svg");
+  }
+}
+
+.checkbox-mark {
+  position: relative;
+
+  label {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #dcdfe1;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+      display: block;
+      width: 8px;
+      height: 8px;
+      content: "";
+      position: absolute;
+      @include def-position;
+      margin: auto;
+      @include def-background("contain");
+      background-image: url($image-path + "icons/checked.svg");
+    }
+  }
+
+  input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+  }
+
+  input[type="checkbox"]:checked + label {
+    background-color: #f26724;
+    border: 0;
   }
 }
