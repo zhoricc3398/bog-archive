@@ -84,6 +84,16 @@
       padding: 45px 0 20px;
     }
 
+    &--right-elements {
+      .form-container {
+        &__content {
+          position: relative;
+          padding-right: 465px;
+          box-sizing: content-box;
+        }
+      }
+    }
+
     &__footer {
       position: sticky;
       left: 0;
@@ -121,6 +131,14 @@
     width: 100%;
     margin: auto auto auto auto;
     margin-bottom: $def-space - 5px;
+
+    &--right-absolute-position {
+      position: absolute;
+      width: auto;
+      right: 0;
+      top: 45px;
+      margin-bottom: 0;
+    }
   }
 
   &-label {
@@ -181,6 +199,66 @@
         .form-field {
           width: unset;
           margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  &-checkbox-warning {
+    padding: 5px 15px;
+    border: 1px dashed #dcdfe1;
+    border-radius: 4px;
+    font-size: 10px;
+    font-family: map-get($font-names, medium);
+    @include make-flex;
+
+    .checkbox-mark {
+      margin-right: 15px;
+    }
+  }
+
+  &-versatile-checkbox-select {
+    width: 425px;
+
+    &__container {
+      border: 1px solid #dcdfe1;
+      border-radius: 4px;
+    }
+
+    &__search-container {
+      padding: 10px;
+      @include make-flex;
+      position: relative;
+      background-color: #dce3ea;
+
+      .form-field {
+        padding: 7px 5px;
+      }
+
+      label {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+      }
+    }
+
+    &__list {
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 10px;
+
+      &-item {
+        @include make-flex;
+        padding: 10px 0;
+        border-bottom: 1px solid #dcdfe1;
+
+        .checkbox-mark {
+          margin-right: 10px;
         }
       }
     }
