@@ -14,11 +14,10 @@
     div {
       font-size: 18px;
       font-family: map-get($font-names, bold);
-      padding: 0 $def-space / 2;
       cursor: pointer;
 
       &.current {
-        color: $G-100-Lit-green;
+        color: #f26724;
 
         div {
           padding: 0;
@@ -27,25 +26,43 @@
     }
   }
 
-  .pagination-previous,
-  .pagination-next,
-  .pagination-last {
-    width: 36px;
-    height: 36px;
+  &-first,
+  &-previous,
+  &-next,
+  &-last {
+    width: 32px;
+    height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: $def-radius;
     background-color: $N-100-Lit-smoke;
     padding: 0;
-    margin-right: $def-space - 10;
+    margin-right: $def-space - 26;
 
-    &:last-child {
+
+
+    &:nth-child(even) {
       margin-right: 0;
     }
 
     &.disabled {
       display: none;
+    }
+  }
+
+  &-numbers {
+    padding: 0;
+
+    div,
+    a {
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+      }
     }
   }
 }

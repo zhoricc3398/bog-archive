@@ -81,7 +81,7 @@
     &__content {
       width: 380px;
       margin: auto;
-      padding: 45px 0 20px;
+      padding: 45px 0 40px;
     }
 
     &--right-elements {
@@ -132,6 +132,10 @@
     margin: auto auto auto auto;
     margin-bottom: $def-space - 5px;
 
+    &--mb-xs {
+      margin-bottom: $def-space / 3;
+    }
+
     &--right-absolute-position {
       position: absolute;
       width: auto;
@@ -149,8 +153,25 @@
     font-family: map-get($font-names, medium);
     margin-bottom: $def-space / 3;
 
-    &:last-of-type {
-      margin-bottom: 0;
+    &-header {
+      margin-bottom: $def-space / 3;
+      @include make-flex("space-between");
+  
+      .form-label {
+        margin-bottom: 0;
+      }
+  
+      &-right-container {
+        @include make-flex;
+        font-size: 12px;
+        color: #5d5d5d;
+        font-family: map-get($font-names, medium);
+        flex-shrink: 0;
+  
+        .checkbox-mark {
+          margin-right: $def-space / 3;
+        }
+      }
     }
   }
 
@@ -204,13 +225,19 @@
     }
   }
 
+  &-caption {
+    font-size: 12px;
+    color: #5a6670;
+    font-family: map-get($font-names, bold);
+  }
+
   &-checkbox-warning {
     padding: 5px 15px;
     border: 1px dashed #dcdfe1;
     border-radius: 4px;
-    font-size: 10px;
+    font-size: 12px;
     font-family: map-get($font-names, medium);
-    @include make-flex;
+    @include make-flex("flex-start");
 
     .checkbox-mark {
       margin-right: 15px;
@@ -260,9 +287,15 @@
         .checkbox-mark {
           margin-right: 10px;
         }
+
+        .form-label {
+          margin-bottom: 0;
+        }
       }
     }
   }
+
+  
 }
 
 table {
@@ -302,11 +335,15 @@ input[type="date"] {
 }
 
 .checkbox-mark {
+  width: 12px;
+  height: 12px;
+  line-height: 0;
+  margin: auto;
   position: relative;
 
   label {
-    width: 12px;
-    height: 12px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #dcdfe1;
     border-radius: 2px;
     cursor: pointer;
@@ -333,5 +370,11 @@ input[type="date"] {
   input[type="checkbox"]:checked + label {
     background-color: #f26724;
     border: 0;
+  }
+}
+
+.form-field {
+  &:focus {
+    border: 1px solid #fc9157;
   }
 }
