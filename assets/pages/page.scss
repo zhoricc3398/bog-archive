@@ -3,4 +3,12 @@
     position: relative;
     background-color: #ffffff;
   }
+
+  &__alone-title {
+    padding: 25px 0 15px 0;
+    font-size: 14px;
+    color: #5A6670;
+    font-family: map-get($font-names, bold);
+    background-color: #f6f8fa;
+  }
 }

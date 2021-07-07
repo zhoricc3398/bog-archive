@@ -51,9 +51,8 @@
   }
 
   footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0 20px;
+    @include make-flex("center");
 
     .btn {
       max-width: 120px;
@@ -61,6 +60,34 @@
       &:first-of-type {
         margin-right: 10px;
       }
+    }
+  }
+}
+
+.modal-with-select {
+  .c-modal {
+    max-width: 465px;
+
+    header {
+      margin-bottom: 15px;
+    }
+
+    &__content {
+      text-align: left;
+      color: #5d5d5d;
+      margin: 0 0 60px;
+      padding: 0 20px;
+      max-width: unset;
+
+      p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+      }
+    }
+
+    footer {
+      @include make-flex("flex-end");
     }
   }
 }

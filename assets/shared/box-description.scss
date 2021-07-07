@@ -1,0 +1,70 @@
+.box-description {
+  padding: $def-space;
+  color: #5d5d5d;
+  font-family: map-get($font-names, medium);
+
+  &__head {
+    position: relative;
+    border-bottom: 1px solid #dcdfe1;
+
+    .btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+
+      &--arrow {
+        width: 25px;
+        height: 25px;
+        transform: rotate(180deg);
+        transition: $def-transition;
+        padding: 0;
+
+        &.active {
+          transform: rotate(0deg);
+        }
+      }
+    }
+  }
+
+  &__label {
+    font-size: 12px;
+  }
+
+  &__value {
+    font-size: 19px;
+  }
+
+  &__title {
+    width: 405px;
+    padding: 20px 0;
+    @include make-flex("space-between");
+  }
+
+  &__content {
+    width: 405px;
+    display: none;
+    font-size: 12px;
+    padding-top: 25px;
+
+    &.active {
+      display: block;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      @include make-flex("space-between");
+      list-style-type: none;
+      margin-bottom: $def-space - 10;
+
+      div {
+        font-family: map-get($font-names, bold);
+      }
+    }
+  }
+}

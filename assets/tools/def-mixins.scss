@@ -1,4 +1,4 @@
-@mixin def-background($size) {
+@mixin def-background($size: 'contain') {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: #{$size};
